@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Calculator</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="shortcut icon"
+    href="https://images.vexels.com/media/users/3/135553/isolated/lists/fe1680d9e81708fd79fc27b791401673-flat-calculator-icon.png"
+    type="image/x-icon">
+
+  <style>
+    .calculator {
+      max-width: 400px;
+      margin: 50px auto;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: #000;
+    }
+
+    #display {
+      height: 60px;
+      font-size: 24px;
+      margin-bottom: 15px;
+      text-align: right;
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    .btn-custom {
+      width: 70px;
+      height: 70px;
+      font-size: 24px;
+      margin: 5px;
+      border-radius: 50%;
+      font-weight: 700;
+      border: none;
+    }
+
+    .btn-light-grey {
+      background-color: rgb(209, 206, 206);
+      color: black;
+    }
+
+    .btn-grey {
+      background-color: rgb(99, 98, 98);
+      color: white;
+    }
+
+    .btn-orange {
+      background-color: orange;
+      color: white;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="calculator text-center">
+    <input type="text" id="display" class="form-control mb-4" readonly>
+
+    <div>
+      <button class="btn-custom btn-light-grey">AC</button>
+      <button class="btn-custom btn-light-grey">DEL</button>
+      <button class="btn-custom btn-light-grey">%</button>
+      <button class="btn-custom btn-orange">/</button>
+    </div>
+    <div>
+      <button class="btn-custom btn-grey">7</button>
+      <button class="btn-custom btn-grey">8</button>
+      <button class="btn-custom btn-grey">9</button>
+      <button class="btn-custom btn-orange">*</button>
+    </div>
+    <div>
+      <button class="btn-custom btn-grey">4</button>
+      <button class="btn-custom btn-grey">5</button>
+      <button class="btn-custom btn-grey">6</button>
+      <button class="btn-custom btn-orange" >-</button>
+    </div>
+    <div>
+      <button class="btn-custom btn-grey">1</button>
+      <button class="btn-custom btn-grey">2</button>
+      <button class="btn-custom btn-grey">3</button>
+      <button class="btn-custom btn-orange">+</button>
+    </div>
+    <div>
+      <button class="btn-custom btn-grey">00</button>
+      <button class="btn-custom btn-grey">0</button>
+      <button class="btn-custom btn-grey">.</button>
+      <button class="btn-custom btn-orange " >=</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
